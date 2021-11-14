@@ -32,8 +32,7 @@ public class HowDoesItWork {
 		List<String> movableTriplesObj = new ArrayList<String>();
 		List<Statement> movableTriplesStmts = new ArrayList<Statement>();
 		Model m = ModelFactory.createDefaultModel();
-		Resource johnSmith = m.createResource(resourceURI);
-		m.read("/home/mijuahon/codes/Finto-data/vocabularies/ykl/ykl-skos.ttl");
+		m.read("/home/[username]/codes/Finto-data/vocabularies/ykl/ykl-skos.ttl");
 		int counter = 0;
 		int forCounter = 0;
 
